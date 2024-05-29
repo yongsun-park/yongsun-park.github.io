@@ -1,37 +1,97 @@
 {
-    "summary": "EDA-Electronic Design Automation 분야에서 계속 일해 왔습니다. Experienced software engineer with a demonstrated history of working in the tech and design industries. Skilled in developing and maintaining web applications, creating responsive designs, and enhancing user experiences.",
-    "companies": [
-      {
-        "name": "Tech Company",
-        "duration": "Jan 2000 - Present",
-        "projects": [
+  "summary": "I have continuously worked in the EDA (Electronic Design Automation) field. I majored in electrical and electronics engineering and worked at Samsung Electronics for 10 years on projects such as PLM, PDM, DRC, and analysis automation. After that, I founded a company called Pentacube with my colleagues, where we develop and provide software services in the EDA field.",
+  "companies": [
+    {
+      "name": "Pentacube",
+      "duration": "2015 - Present",
+      "projects": [
           {
-            "title": "Project A",
-            "duration": "Jan 2021 - Present",
-            "description": "Description of Project A."
+              "title": "Eye Generation and Analysis (CubicWave)",
+              "duration": "2023 - Present",
+              "description": "Generates Eye from transient analysis results and automatically measures Aperture size. Implemented functions to configure DDR timing results and automatically output reports. In this project, I mainly managed tasks with minimal coding."
           },
           {
-            "title": "Project B",
-            "duration": "Mar 2020 - Dec 2020",
-            "description": "Description of Project B."
-          }
-        ]
-      },
-      {
-        "name": "Design Studio",
-        "projects": [
-          {
-            "title": "Project C",
-            "duration": "Jan 2019 - Feb 2020",
-            "description": "Description of Project C."
+              "title": "Ansys EM Analysis Automation",
+              "duration": "2018 - Present",
+              "description": "Developed analysis automation for Ansys SIWave and HFSS. Worked on creating and modifying .siw files directly to quickly generate analysis files. Also performed automation using scripts provided by Ansys. Additionally, I played the role of PM in automating various processes of analysis automation."
           },
           {
-            "title": "Project D",
-            "duration": "Mar 2018 - Dec 2018",
-            "description": "Description of Project D."
+              "title": "PKG Structural Analysis Automation",
+              "duration": "2018 - Present",
+              "description": "Served as the PM for an Ansys-based structural analysis automation system. Provides an I/F for DIE structures within PKG, generates analysis input files, and outputs reports."
+          },
+          {
+              "title": "DRC/DFM (CubicPDRC)",
+              "duration": "2016 - Present",
+              "description": "Developed DRC. Created the initial structure and UI, and continuously developed and maintained features over a long period. I understand the characteristics of CAD data and the limitations of applying DRC in various situations. I believe I have the most experience in developing and applying DRC domestically."
+          },
+          {
+              "title": "PCB/PKG CAD Viewer (CubicViewer)",
+              "duration": "2015 - Present",
+              "description": "A WPF-based circuit CAD viewer. Users can load various PCB/PKG CAD files to view and analyze schematics. I developed and maintained features over a long period, implementing UI, ODB++ I/F, and rendering functions using OpenGL."
+          },
+          {
+              "title": "PCB/PKG Comparison Tool (CubicCompare)",
+              "duration": "2015 - Present",
+              "description": "Developed a function that compares two design data for PCB/PKG."
           }
-        ]
-      }
-    ]
-  }
-  
+      ]
+    },
+    {
+      "name": "Samsung Electronics",
+      "duration": "2005 - 2015",
+      "projects": [
+        {
+          "title": "Enterprise Circuit Development Verification Environment",
+          "duration": "2010 - 2015",
+          "description": "Participated in developing a system that commissions DRC and analysis to a supercomputer and stores the history. Maintained the system over a long period after development."
+        },
+        {
+          "title": "DRC",
+          "duration": "2005 - 2015",
+          "description": "Developed the DRC in-house tool used by various divisions of Samsung Electronics. Initially worked on independent product development and later maintained the product using Cadence's Skill."
+        },
+        {
+          "title": "Drawing Comparison Tool Development",
+          "duration": "2012 - 2015",
+          "description": "Developed a tool to compare two drawings and identify version differences. Used to check whether to perform analysis and checklist verification when PCB revisions occur."
+        },
+        {
+          "title": "PCB CAD Viewer",
+          "duration": "2005 - 2015",
+          "description": "PCB CAD Viewer was used as a basis for PCB design cost estimation and DRC. It was developed over a long period by several people, with me handling a significant portion. Proposed and implemented OpenGL technology. Developed and maintained I/F for various CAD files such as Cadence, Zuken, and Expedition."
+        },
+        {
+          "title": "Circuit Development Environment Construction",
+          "duration": "2007 - 2010",
+          "description": "Participated in planning the circuit development environment system within PLM (PDM). As the field representative for the SI project, I was responsible for planning the circuit part. Analyzed circuit development processes and reflected them in the system."
+        },
+        {
+          "title": "Enterprise PCB Design Partner Management",
+          "duration": "2005 - 2012",
+          "description": "Worked as a sub-responsible person in establishing company-wide PCB design partner management standards and applying integrated design costs."
+        },
+        {
+          "title": "IR-Drop Analysis Automation",
+          "duration": "2009",
+          "description": "Automated IR-Drop analysis based on Cadence."
+        },
+        {
+          "title": "Optimal Decap Design Automation",
+          "duration": "2010 - 2012",
+          "description": "Developed a system that automates Cadence (formerly Sigrity) analysis tools, performs analysis on a server, and checks analysis results on the web."
+        },
+        {
+          "title": "Design Data Management System",
+          "duration": "2005 - 2007",
+          "description": "Developed some functions of the cad design data management system as a junior employee. It included functionality to check in/out CAD files from Mentor and Zuken. There were various utility functions related to cad design."
+        },
+        {
+          "title": "PCB Design Cost Estimation Tool",
+          "duration": "2005 - 2015",
+          "description": "Maintained a tool that was initially developed. It estimates PCB design costs using various PCB parameters. Used by suppliers delivering to Samsung Electronics. Continued maintenance throughout the tenure."
+        }
+      ]
+    }
+  ]
+}
