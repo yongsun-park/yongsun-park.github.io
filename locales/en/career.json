@@ -1,0 +1,37 @@
+{
+    "summary": "EDA-Electronic Design Automation 분야에서 계속 일해 왔습니다. Experienced software engineer with a demonstrated history of working in the tech and design industries. Skilled in developing and maintaining web applications, creating responsive designs, and enhancing user experiences.",
+    "companies": [
+      {
+        "name": "Tech Company",
+        "duration": "Jan 2000 - Present",
+        "projects": [
+          {
+            "title": "Project A",
+            "duration": "Jan 2021 - Present",
+            "description": "Description of Project A."
+          },
+          {
+            "title": "Project B",
+            "duration": "Mar 2020 - Dec 2020",
+            "description": "Description of Project B."
+          }
+        ]
+      },
+      {
+        "name": "Design Studio",
+        "projects": [
+          {
+            "title": "Project C",
+            "duration": "Jan 2019 - Feb 2020",
+            "description": "Description of Project C."
+          },
+          {
+            "title": "Project D",
+            "duration": "Mar 2018 - Dec 2018",
+            "description": "Description of Project D."
+          }
+        ]
+      }
+    ]
+  }
+  
